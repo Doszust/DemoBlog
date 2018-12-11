@@ -60,9 +60,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   # Guard
-  gem 'guard', '~> 2.15'
+  gem 'guard'
 
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload'
 end
 
 group :test do
